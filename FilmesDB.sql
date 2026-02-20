@@ -1,0 +1,31 @@
+CREATE DATABASE FilmesDB
+GO
+
+USE FilmesDB
+
+CREATE TABLE Genero(
+Id_genero		VARCHAR(40)		PRIMARY KEY		NOT NULL,
+Nome			VARCHAR(100)					NOT NULL, 
+
+);
+GO
+
+CREATE TABLE Filme(
+id_filme		VARCHAR(40)		PRIMARY KEY		NOT NULL,
+Titulo			VARCHAR(100)					NOT NULL,
+Imagem			VARCHAR(100),
+id_genero		VARCHAR(40)		FOREIGN KEY REFERENCES Genero (id_genero)
+
+
+);
+GO
+
+CREATE TABLE Usuario(
+id_usuario		VARCHAR(40)		PRIMARY KEY		NOT NULL,
+Nome			VARCHAR(100)					NOT NULL,
+Senha			VARCHAR(60)						NOT NULL,
+Email			VARCHAR(256)	UNIQUE			NOT NULL
+
+
+);
+GO
