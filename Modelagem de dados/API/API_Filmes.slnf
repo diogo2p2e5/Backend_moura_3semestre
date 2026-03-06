@@ -1,8 +1,0 @@
-{
-  "solution": {
-    "path": "..\\source\\repos\\FilmesMoura.WebAPI\\FilmesMoura.WebAPI.slnx",
-    "projects": [
-      "FilmesMoura.WebAPI\\FilmesMoura.WebAPI.csproj"
-    ]
-  }
-}
