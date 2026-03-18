@@ -1,9 +1,12 @@
 ﻿using EventPlus.WebAPI.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace EventPlus.WebAPI.Interfaces;
 
 public interface IEventoRepository
 {
+   
+
     void Cadastrar(Evento evento);
 
     List<Evento> Listar();

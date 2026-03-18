@@ -1,6 +1,8 @@
 CREATE DATABASE EventPlus
 GO
 
+select * from Evento; 
+
 USE EventPlus
 
 

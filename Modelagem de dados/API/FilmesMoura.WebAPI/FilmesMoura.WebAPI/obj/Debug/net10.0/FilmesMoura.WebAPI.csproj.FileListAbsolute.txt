@@ -162,3 +162,15 @@ C:\Users\54232743898\source\repos\FilmesMoura.WebAPI\FilmesMoura.WebAPI\bin\Debu
 C:\Users\54232743898\source\repos\FilmesMoura.WebAPI\FilmesMoura.WebAPI\bin\Debug\net10.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\54232743898\source\repos\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\54232743898\source\repos\FilmesMoura.WebAPI\FilmesMoura.WebAPI\bin\Debug\net10.0\FilmesMoura.WebAPI.staticwebassets.runtime.json
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.csproj.AssemblyReference.cache
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\rpswa.dswa.cache.json
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.AssemblyInfoInputs.cache
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.AssemblyInfo.cs
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.sourcelink.json
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.dll
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\refint\FilmesMoura.WebAPI.dll
+C:\Users\54232743898\Desktop\Backend_moura_3semestre\Modelagem de dados\API\FilmesMoura.WebAPI\FilmesMoura.WebAPI\obj\Debug\net10.0\FilmesMoura.WebAPI.pdb

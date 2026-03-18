@@ -2,7 +2,7 @@
 
 namespace EventPlus.WebAPI.Interfaces;
 
-public interface IUsusarioRepository
+public interface IUsuarioRepository
 {
     void Cadastrar(Usuario usuario);
     Usuario BuscarPorId(Guid IdUsusario);
