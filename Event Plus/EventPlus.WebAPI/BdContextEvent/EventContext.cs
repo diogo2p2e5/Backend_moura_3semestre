@@ -42,7 +42,7 @@ public partial class EventContext : DbContext
 
             entity.Property(e => e.IdComentarEvento).HasDefaultValueSql("(newid())");
 
-            entity.HasOne(d => d.IdTipoEventoNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__Id_Ti__75A278F5");
+            //entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__Id_Ti__75A278F5");
 
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__Id_Us__76969D2E");
         });
@@ -71,7 +71,7 @@ public partial class EventContext : DbContext
 
             entity.Property(e => e.IdPresenca).HasDefaultValueSql("(newid())");
 
-            entity.HasOne(d => d.IdTipoEventoNavigation).WithMany(p => p.Presencas).HasConstraintName("FK__Presenca__Id_Tip__70DDC3D8");
+            entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.Presencas).HasConstraintName("FK__Presenca__Id_Tip__70DDC3D8");
 
             entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Presencas).HasConstraintName("FK__Presenca__Id_Usu__71D1E811");
         });

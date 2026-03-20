@@ -1,7 +1,7 @@
 CREATE DATABASE EventPlus
 GO
 
-select * from Evento; 
+select * from Usuario; 
 
 USE EventPlus
 
@@ -51,23 +51,24 @@ CREATE TABLE Evento(
 CREATE TABLE Presenca(
 	Id_Presenca			UNIQUEIDENTIFIER	PRIMARY		KEY	DEFAULT((NEWID())),
 	Situacao			BIT					NOT NULL,
-	Id_TipoEvento		UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Evento
+	Id_Evento		UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Evento
 	(Id_Evento),
 	Id_Usuario			UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Usuario
 	(id_Usuario)
 
-
-)
+	
+);
 
 CREATE TABLE ComentarioEvento(
 	Id_ComentarEvento		UNIQUEIDENTIFIER	PRIMARY		KEY	DEFAULT((NEWID())),
 	DataComentarioEvento	DATETIME			NOT NULL,
 	Descricao				NVARCHAR(200)		NOT NULL,
 	Exibe					BIT					NOT NULL,
-	Id_TipoEvento			UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Evento
+	Id_Evento			UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Evento
 	(Id_Evento),
 	Id_Usuario				UNIQUEIDENTIFIER FOREIGN KEY REFERENCES Usuario
 	(id_Usuario)
 
 
 )
+drop table ComentarioEvento;

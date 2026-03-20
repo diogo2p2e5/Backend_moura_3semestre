@@ -31,9 +31,10 @@ public partial class Evento
 
 
     [JsonIgnore]
-    [InverseProperty("IdTipoEventoNavigation")]
+    [InverseProperty("IdEventoNavigation")]
     public virtual ICollection<ComentarioEvento> ComentarioEventos { get; set; } = new List<ComentarioEvento>();
 
+   
     [ForeignKey("IdInstituicao")]
     [InverseProperty("Eventos")]
     public virtual Instituicao? IdInstituicaoNavigation { get; set; }
@@ -43,6 +44,8 @@ public partial class Evento
     public virtual TipoEvento? IdTipoEventoNavigation { get; set; }
 
     [JsonIgnore]
-    [InverseProperty("IdTipoEventoNavigation")]
+    [InverseProperty("IdEventoNavigation")]
     public virtual ICollection<Presenca> Presencas { get; set; } = new List<Presenca>();
+    
 }
+

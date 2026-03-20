@@ -40,6 +40,12 @@ public class PresencaController : ControllerBase
         }
     }
 
+
+    /// <summary>
+    /// EndPoint da API que permite a inscrição de um usuário em um evento, criando uma nova presença com a situação de inscrição.
+    /// </summary>
+    /// <param name="presenca">presenca artribuida a um usuario </param>
+    /// <returns>usuario presente em um evento</returns>
     [HttpPost]
     public IActionResult Inscrever(PresencaDTO presenca)
     {
@@ -62,7 +68,13 @@ public class PresencaController : ControllerBase
         }
     }
 
-        [HttpPut]
+    /// <summary>
+    /// EndPoint da API que permite a atualização da situação de uma presença, permitindo que um usuário confirme ou cancele sua presença em um evento.
+    /// </summary>
+    /// <param name="id">id da presença que sera alterada</param>
+    /// <param name="presenca">a presenca atribuida ao usuario alterada</param>
+    /// <returns>presenca alterada</returns>
+    [HttpPut]
         public IActionResult Atualizar(Guid id, Presenca presenca)
         {
         try
