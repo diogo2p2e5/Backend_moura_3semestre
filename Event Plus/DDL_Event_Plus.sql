@@ -2,6 +2,8 @@ CREATE DATABASE EventPlus
 GO
 
 select * from Usuario; 
+select * from Evento; 
+select * from ComentarioEvento; 
 
 USE EventPlus
 
@@ -72,3 +74,7 @@ CREATE TABLE ComentarioEvento(
 
 )
 drop table ComentarioEvento;
+
+
+INSERT INTO ComentarioEvento(DataComentarioEvento, Descricao,Exibe, Id_Evento, Id_Usuario) VALUES
+('2026/08/24','Eu amo o kojima','true', '2EBA0C9B-3C25-469B-91FA-99D648F063C3', 'AB301CEF-99D0-4012-9506-31BC55224429');

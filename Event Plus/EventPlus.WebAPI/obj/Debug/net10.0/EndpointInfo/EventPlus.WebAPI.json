@@ -731,6 +731,45 @@
   },
   "components": {
     "schemas": {
+      "ComentarioEvento": {
+        "type": "object",
+        "properties": {
+          "idComentarEvento": {
+            "type": "string",
+            "format": "uuid"
+          },
+          "dataComentarioEvento": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "descricao": {
+            "maxLength": 200,
+            "minLength": 0,
+            "type": "string",
+            "nullable": true
+          },
+          "exibe": {
+            "type": "boolean"
+          },
+          "idEvento": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "idUsuario": {
+            "type": "string",
+            "format": "uuid",
+            "nullable": true
+          },
+          "idEventoNavigation": {
+            "$ref": "#/components/schemas/Evento"
+          },
+          "idUsuarioNavigation": {
+            "$ref": "#/components/schemas/Usuario"
+          }
+        },
+        "additionalProperties": false
+      },
       "ComentarioEventoDTO": {
         "type": "object",
         "properties": {
@@ -780,11 +819,25 @@
             "format": "uuid",
             "nullable": true
           },
+          "comentarioEventos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComentarioEvento"
+            },
+            "nullable": true
+          },
           "idInstituicaoNavigation": {
             "$ref": "#/components/schemas/Instituicao"
           },
           "idTipoEventoNavigation": {
             "$ref": "#/components/schemas/TipoEvento"
+          },
+          "presencas": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Presenca"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -843,6 +896,13 @@
             "maxLength": 14,
             "minLength": 0,
             "type": "string",
+            "nullable": true
+          },
+          "eventos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Evento"
+            },
             "nullable": true
           }
         },
@@ -945,6 +1005,13 @@
             "minLength": 0,
             "type": "string",
             "nullable": true
+          },
+          "eventos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Evento"
+            },
+            "nullable": true
           }
         },
         "additionalProperties": false
@@ -973,6 +1040,13 @@
             "maxLength": 100,
             "minLength": 0,
             "type": "string",
+            "nullable": true
+          },
+          "usuarios": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/Usuario"
+            },
             "nullable": true
           }
         },
@@ -1019,6 +1093,13 @@
           "idTipoUsuario": {
             "type": "string",
             "format": "uuid",
+            "nullable": true
+          },
+          "comentarioEventos": {
+            "type": "array",
+            "items": {
+              "$ref": "#/components/schemas/ComentarioEvento"
+            },
             "nullable": true
           },
           "idTipoUsuarioNavigation": {

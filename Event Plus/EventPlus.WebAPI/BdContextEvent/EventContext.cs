@@ -38,13 +38,13 @@ public partial class EventContext : DbContext
     {
         modelBuilder.Entity<ComentarioEvento>(entity =>
         {
-            entity.HasKey(e => e.IdComentarEvento).HasName("PK__Comentar__B0005AC8E4BF616B");
+            entity.HasKey(e => e.IdComentarEvento).HasName("PK__Comentar__B0005AC8620300A7");
 
             entity.Property(e => e.IdComentarEvento).HasDefaultValueSql("(newid())");
 
-            //entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__Id_Ti__75A278F5");
+            entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__Id_Ev__08B54D69");
 
-            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__Id_Us__76969D2E");
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.ComentarioEventos).HasConstraintName("FK__Comentari__Id_Us__09A971A2");
         });
 
         modelBuilder.Entity<Evento>(entity =>
@@ -67,13 +67,13 @@ public partial class EventContext : DbContext
 
         modelBuilder.Entity<Presenca>(entity =>
         {
-            entity.HasKey(e => e.IdPresenca).HasName("PK__Presenca__CD5319F5FF33C83D");
+            entity.HasKey(e => e.IdPresenca).HasName("PK__Presenca__CD5319F55A36953B");
 
             entity.Property(e => e.IdPresenca).HasDefaultValueSql("(newid())");
 
-            entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.Presencas).HasConstraintName("FK__Presenca__Id_Tip__70DDC3D8");
+            entity.HasOne(d => d.IdEventoNavigation).WithMany(p => p.Presencas).HasConstraintName("FK__Presenca__Id_Eve__03F0984C");
 
-            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Presencas).HasConstraintName("FK__Presenca__Id_Usu__71D1E811");
+            entity.HasOne(d => d.IdUsuarioNavigation).WithMany(p => p.Presencas).HasConstraintName("FK__Presenca__Id_Usu__04E4BC85");
         });
 
         modelBuilder.Entity<TipoEvento>(entity =>

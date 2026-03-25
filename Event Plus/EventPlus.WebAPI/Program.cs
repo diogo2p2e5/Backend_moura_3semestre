@@ -23,8 +23,8 @@ builder.Services.AddScoped<IComentarioEventoRepository, ComentarioEventoReposito
 var endpoint = "";
 var apikey = "";
 
-var client = new ContentSafetyClient(new Uri(endpoint), new AzureKeyCredential(apikey));
-builder.Services.AddSingleton(client);
+//var client = new ContentSafetyClient(new Uri(endpoint), new AzureKeyCredential(apikey));
+//builder.Services.AddSingleton(client);
 
 
 builder.Services.AddAuthentication(options =>

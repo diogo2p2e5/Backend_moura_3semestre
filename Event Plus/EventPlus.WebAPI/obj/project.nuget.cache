@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bNHj5hq/1oA=",
+  "dgSpecHash": "ORu3JRd9Sas=",
   "success": true,
   "projectFilePath": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\EventPlus.WebAPI\\EventPlus.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,6 @@
     "C:\\Users\\54232743898\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
     "C:\\Users\\54232743898\\.nuget\\packages\\bcrypt.net-next\\4.1.0\\bcrypt.net-next.4.1.0.nupkg.sha512",
     "C:\\Users\\54232743898\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
-    "C:\\Users\\54232743898\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.9\\microsoft.aspnetcore.authentication.2.3.9.nupkg.sha512",
     "C:\\Users\\54232743898\\.nuget\\packages\\microsoft.aspnetcore.authentication.jwtbearer\\10.0.5\\microsoft.aspnetcore.authentication.jwtbearer.10.0.5.nupkg.sha512",
     "C:\\Users\\54232743898\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.3\\microsoft.aspnetcore.openapi.10.0.3.nupkg.sha512",
     "C:\\Users\\54232743898\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\8.0.0\\microsoft.bcl.asyncinterfaces.8.0.0.nupkg.sha512",
@@ -63,18 +62,5 @@
     "C:\\Users\\54232743898\\.nuget\\packages\\system.security.cryptography.pkcs\\9.0.4\\system.security.cryptography.pkcs.9.0.4.nupkg.sha512",
     "C:\\Users\\54232743898\\.nuget\\packages\\system.security.cryptography.protecteddata\\9.0.4\\system.security.cryptography.protecteddata.9.0.4.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "NU1510",
-      "level": "Warning",
-      "message": "PackageReference Microsoft.AspNetCore.Authentication não será podado. Considere remover este pacote das dependências, pois\u00A0ele provavelmente é desnecessário.",
-      "projectPath": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\EventPlus.WebAPI\\EventPlus.WebAPI.csproj",
-      "warningLevel": 1,
-      "filePath": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\EventPlus.WebAPI\\EventPlus.WebAPI.csproj",
-      "libraryId": "Microsoft.AspNetCore.Authentication",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    }
-  ]
+  "logs": []
 }

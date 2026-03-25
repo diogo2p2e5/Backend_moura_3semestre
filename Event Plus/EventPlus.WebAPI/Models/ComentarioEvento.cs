@@ -21,15 +21,15 @@ public partial class ComentarioEvento
 
     public bool Exibe { get; set; }
 
-    [Column("Id_TipoEvento")]
-    public Guid? IdTipoEvento { get; set; }
+    [Column("Id_Evento")]
+    public Guid? IdEvento { get; set; }
 
     [Column("Id_Usuario")]
     public Guid? IdUsuario { get; set; }
 
-    [ForeignKey("IdTipoEvento")]
+    [ForeignKey("IdEvento")]
     [InverseProperty("ComentarioEventos")]
-    public virtual Evento? IdTipoEventoNavigation { get; set; }
+    public virtual Evento? IdEventoNavigation { get; set; }
 
     [ForeignKey("IdUsuario")]
     [InverseProperty("ComentarioEventos")]

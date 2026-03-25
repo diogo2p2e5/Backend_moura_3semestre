@@ -1,9 +1,8 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Text.Json.Serialization;
+using Microsoft.EntityFrameworkCore;
 
 namespace EventPlus.WebAPI.Models;
 
@@ -27,7 +26,6 @@ public partial class Usuario
     [Column("Id_TipoUsuario")]
     public Guid? IdTipoUsuario { get; set; }
 
-    [JsonIgnore]
     [InverseProperty("IdUsuarioNavigation")]
     public virtual ICollection<ComentarioEvento> ComentarioEventos { get; set; } = new List<ComentarioEvento>();
 
