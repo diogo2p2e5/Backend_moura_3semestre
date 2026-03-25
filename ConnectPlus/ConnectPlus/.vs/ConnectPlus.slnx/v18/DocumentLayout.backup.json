@@ -1,0 +1,73 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\ConnectPlus\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{62D3E8AD-3C3A-D06F-888B-A5FF4A5F4AF2}|ConnectPlus.csproj|c:\\users\\54232743898\\desktop\\backend_moura_3semestre\\event plus\\connectplus\\controllers\\tipocontatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D3E8AD-3C3A-D06F-888B-A5FF4A5F4AF2}|ConnectPlus.csproj|solutionrelative:controllers\\tipocontatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D3E8AD-3C3A-D06F-888B-A5FF4A5F4AF2}|ConnectPlus.csproj|c:\\users\\54232743898\\desktop\\backend_moura_3semestre\\event plus\\connectplus\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D3E8AD-3C3A-D06F-888B-A5FF4A5F4AF2}|ConnectPlus.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{62D3E8AD-3C3A-D06F-888B-A5FF4A5F4AF2}|ConnectPlus.csproj|c:\\users\\54232743898\\desktop\\backend_moura_3semestre\\event plus\\connectplus\\controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{62D3E8AD-3C3A-D06F-888B-A5FF4A5F4AF2}|ConnectPlus.csproj|solutionrelative:controllers\\contatocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TipoContatoController.cs",
+              "DocumentMoniker": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\ConnectPlus\\Controllers\\TipoContatoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TipoContatoController.cs",
+              "ToolTip": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\ConnectPlus\\Controllers\\TipoContatoController.cs",
+              "RelativeToolTip": "Controllers\\TipoContatoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T19:13:56.166Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ContatoController.cs",
+              "DocumentMoniker": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\ConnectPlus\\Controllers\\ContatoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ContatoController.cs",
+              "ToolTip": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\ConnectPlus\\Controllers\\ContatoController.cs",
+              "RelativeToolTip": "Controllers\\ContatoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHkAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T16:47:22.69Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\ConnectPlus\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\54232743898\\Desktop\\Backend_moura_3semestre\\Event Plus\\ConnectPlus\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAkwD4AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-25T19:26:24.752Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
