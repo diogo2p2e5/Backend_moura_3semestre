@@ -23,7 +23,7 @@ public class TipoContatoController : ControllerBase
     /// </summary>
     /// <param name="id">Id a ser buscado</param>
     /// <returns>O tipo contato buscado</returns>
-    [HttpGet]
+    [HttpGet("{id}")]
     public IActionResult BuscarPorId(Guid id)
     {
         try
@@ -88,7 +88,7 @@ public class TipoContatoController : ControllerBase
     /// <param name="tipoContato">titulo alterado do tipo de contato</param>
     /// <returns>retorna o tipo de contato atualizado</returns>
     [HttpPut("{id}")]
-    IActionResult Atualizar(Guid id, TipoContatoDTO tipoContato)
+    public IActionResult Atualizar(Guid id, TipoContatoDTO tipoContato)
     {
         try
         {

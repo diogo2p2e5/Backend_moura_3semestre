@@ -6,7 +6,7 @@ public interface IContatoRepository
 {
     void Cadastrar(Contato contato);
 
-    void Deletar(Guid Id);
+    void Deletar(Guid guid);
 
     Contato BuscarPorId(Guid idContato);
 

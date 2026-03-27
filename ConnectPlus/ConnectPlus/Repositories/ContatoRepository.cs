@@ -46,7 +46,8 @@ public class ContatoRepository : IContatoRepository
 
     public Contato BuscarPorId(Guid idContato)
     {
-        return _context.Contatos.Include(c => c.IdContato).FirstOrDefault(c => c.IdContato == idContato)!;
+        
+        return _context.Contatos.FirstOrDefault(c => c.IdContato == idContato);
 
     }
 

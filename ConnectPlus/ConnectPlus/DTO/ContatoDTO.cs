@@ -10,7 +10,7 @@ public class ContatoDTO
     [Required(ErrorMessage = "A forma de contato com o usuario  é obrigatório")]
     public string? FormaContato { get; set; }
 
-    public string? FotoPerfil { get; set; }
+    public IFormFile? FotoPerfil { get; set; }
 
     public Guid IdTipoContato { get; set; }
 }
